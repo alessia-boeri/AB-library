@@ -1,0 +1,10 @@
+<h1>Slider</h1>
+
+<pre>{{ vm.foo }}</pre>
+
+<a ng-class="vm.foo" href="" ng-click="vm.click()">Click Me!</a>
+
+<input ng-model="vm.count" type="number">
+<div>{{ vm.count }}</div>
+
+<div ng-repeat="numbrer in vm.getNumber(vm.count) track by $index">{{ $index }}</div>
